@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav {
+        background:gray;
+        border: 2px solid black;
+        padding: 10px;
+        margin-left: 300px;
+        margin-right: 300px;
+        text-align: center;
+        border-radius: 10px;
+          }
+            a {
+                background: black;
+                padding: 2px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-family: 'Trebuchet MS';
+                color: white;
+				text-decoration: none;
+				border-radius: 5px;
+            }
+            .dö{
+                font-family: 'Arial';
+                border: 5px solid black;
+                padding: 10px;
+                background:lightblue;
+                margin-left: 100px;
+                margin-right: 100px;
+                border-radius: 10px;
+            }
+            h1{
+                font-family: 'Arial';
+                color: #000000;
+                text-align: center;
+            }
+			.bild{
+				
+				width: 500px;
+			    height: 300px;
+				border: 2px solid black;
+			}
+			.bröd{
+				
+			}
+			.bildtext{
+				font-family: 'Arial'; 
+				color: darkslategray;
+				text-align: center;
+			}
