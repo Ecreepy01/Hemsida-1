@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-nav {
+        .meny 
+        {
         background:gray;
         border: 2px solid black;
         padding: 10px;
@@ -10,7 +11,17 @@ nav {
         text-align: center;
         border-radius: 10px;
           }
-            a {
+         ul.ancheor
+        {
+        background:gray;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        width: 200px;
+            list-style: none;
+        }
+            a:link 
+            {
                 background: black;
                 padding: 2px;
                 margin-right: 10px;
@@ -20,7 +31,41 @@ nav {
 				text-decoration: none;
 				border-radius: 5px;
             }
-            .dö{
+             a:visited 
+            {
+                background: black;
+                padding: 2px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-family: 'Trebuchet MS';
+                color: lightblue;
+				text-decoration: none;
+				border-radius: 5px;
+            }
+             a:hover 
+            {
+                background: gray;
+                padding: 2px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-family: 'Trebuchet MS';
+                color: white;
+				text-decoration: none;
+				border-radius: 5px;
+            }
+            a:hover 
+            {
+                background: gray;
+                padding: 2px;
+                margin-right: 10px;
+                margin-left: 10px;
+                font-family: 'Trebuchet MS';
+                color: lightblue;
+				text-decoration: none;
+				border-radius: 5px;
+            }
+            .dö
+            {
                 font-family: 'Arial';
                 border: 5px solid black;
                 padding: 10px;
@@ -29,22 +74,68 @@ nav {
                 margin-right: 100px;
                 border-radius: 10px;
             }
-            h1{
+            h1
+            {
                 font-family: 'Arial';
                 color: #000000;
                 text-align: center;
             }
-			.bild{
-				
+			.bild
+            {
 				width: 500px;
 			    height: 300px;
 				border: 2px solid black;
 			}
-			.bröd{
+			.bröd
+            {
 				
 			}
-			.bildtext{
+			.bildtext
+            {
 				font-family: 'Arial'; 
 				color: darkslategray;
 				text-align: center;
 			}
+body
+{
+    background-image:(steel.jpg)
+}
+@media(max-device-width: 450px)
+{
+    .meny
+        {
+        background:gray;
+        border: 1px solid black;
+        padding: 5px;
+        margin-left: 600px;
+        margin-right: 600px;
+        text-align: center;
+        border-radius: 5px;
+          }
+    .bild
+            {
+				width: 250px;
+			    height: 150px;
+				border: 1px solid black;
+			}
+    .dö
+            {
+                font-family: 'Arial';
+                border: 2px solid black;
+                padding: 5px;
+                background:lightblue;
+                margin-left: 50px;
+                margin-right: 50px;
+                border-radius: 5px;
+            }
+    
+         ul.ancheor
+        {
+        background:gray;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        width: 100px;
+            list-style: none;
+        }
+}
