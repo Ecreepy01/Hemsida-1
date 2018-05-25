@@ -143,7 +143,13 @@ body
         border: 1px solid black;
         padding: 5px;
         border-radius: 5px;
-        width: 1000px;
+        width: 100px;
             list-style: none;
         }
+    h1{
+        border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+        margin:0;
+    }
 }
