@@ -147,4 +147,10 @@ body
         width: calc(100%-20px);
         margin:0;
     }
+    .bild
+            {
+				width: 150px;
+			    height: 80px;
+				border: 1px solid black;
+			}
 }
